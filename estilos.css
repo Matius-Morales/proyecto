@@ -1,0 +1,257 @@
+h1{
+    color:rgb(248, 137, 155);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Monoton', cursive;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+h2{
+    color: rgb(248, 137, 155);
+    font-size: 30px;
+    animation-duration: 4s;
+    animation-name:un_efecto ;
+}
+@keyframes un_efecto{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+                    }
+
+.navbar-nav{ 
+  margin-left: auto;
+    
+}
+legend{
+    background-color: pink;
+    color:lightyellow;
+    line-height: 2;
+}
+fieldset{
+    width: max-content;
+    background-color:rgb(255, 182, 249);
+    line-height: 2.5;
+    padding: 1em;
+}
+.formulario_texto{
+    margin: 10px;
+}
+.contacto_flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ubicacion_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+select{
+    background-color: pink;
+    color: linen;
+}
+input{
+    background-color: pink;
+}
+table{
+    
+    background-color: rgb(255, 218, 224);
+    color: rgb(245, 135, 135);
+}
+p{
+    
+    color: rgb(251, 220, 181);
+}
+ol{
+    width: min-content;
+    background-color: rgb(246, 144, 161);
+    color: black;
+    list-style-type: upper-roman;
+}
+body{
+    background-color: #FA8BFF;
+    background: #d9a7c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+}
+
+h3{
+    
+    color: #e940c4;
+}
+*{ 
+    font-family: Arial;
+    font-family: "comic sans ms", sans-serif ;
+}
+
+.navegacions{
+    background-color: rgba(248, 210, 242, 0.952) ;
+    height: 150px;
+}
+
+footer{
+    background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    padding: 10px ! important;
+    display: flex ! important;
+    justify-content: space-around ! important;
+
+}
+.flexf{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+    
+}
+#red{
+    width: 20px;
+    height: 20px;
+}
+.envio{
+    display: flex;
+    flex-direction: column;
+}
+
+.comprar{
+    background-color:lightcyan;
+    width: max-content;
+}
+
+
+@media only screen and (max-width: 600px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        margin-bottom: 120px;
+   
+    }
+    .img1{
+        height: auto;
+        width: auto;
+        max-height: 500px;
+        max-width: 500px;
+    }
+    .contacto_flex{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 480px){
+    nav{
+        display: flex;
+        flex-direction: column;
+     
+    }
+    header{
+        margin-bottom: 120px;
+    }
+    .img1{
+        height: auto;
+        width: auto;
+        max-height: 800px;
+        max-width: 800px;
+    }
+    .contacto_flex{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 1000px){
+    nav{
+        display: flex;
+        flex-direction: column;
+     
+    }
+    header{
+        margin-bottom: 120px;
+    }
+    .img1{
+        height: auto;
+        width: auto;
+        max-height: 400px;
+        max-width: 400px;
+    }
+    .contacto_flex{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media only screen and (max-width: 720px){
+    nav{
+        display: flex;
+        flex-direction: column;
+     
+    }
+    header{
+        margin-bottom: 120px;
+    }
+    .img1{
+        height: auto;
+        width: auto;
+        max-height: 400px;
+        max-width: 400px;
+    }
+    .contacto_flex{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.container-main{
+    min-height: calc(100vh - 100px - 300px);
+}
+
+@media only screen and (max-width: 991px){
+    nav{
+        display: flex;
+        flex-direction: column;
+     
+    }
+    #galeria img{
+        width: 60%;
+        height: 300px;
+    }
+  
+    header{
+        margin-bottom: 120px;
+    }
+    .img1{
+        height: auto;
+        width: auto;
+        max-height: 400px;
+        max-width: 400px;
+    }
+    .contacto_flex{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.container-main{
+    min-height: calc(100vh - 100px - 300px);
+}
+
